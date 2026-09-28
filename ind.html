@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox - Catalogo de imágenes</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            font-family: Verdana, serif;
+        }
+        header{
+            height: 70px;
+            line-height: 70px;
+            padding-left: 40px;
+            background: #3c3c8f;
+            color: #dabae2;
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        section{
+            background: #e3cdff;
+        }
+        article{
+            display: flex;
+            justify-content: flex-start;
+        }
+        img{
+            border: dashed 1px #3e0450;
+            margin: 10px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Flexbox - Catalogo de imágenes
+    </header>
+
+    <section>
+        <article>
+            <img src="img2/images.jpg" width="200">
+            <img src="img3/images (1).jpg" width="200">
+            <img src="img4/images.jpg" width="200">
+            <img src="img5/images (1).jpg" width="200">
+            <img src="img6/images.jpg" width="200">
+        </article>
+    </section>
+
+</body>
+</html>
